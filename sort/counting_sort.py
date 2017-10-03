@@ -1,7 +1,7 @@
 import random
 
 def counting_sort(array):
-    size =len(array)
+    size = len(array)
     max_val = max(array)
     tmp = [0 for _ in range(max_val + 1)]
     result = [0 for _ in range(size)]
