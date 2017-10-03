@@ -1,12 +1,12 @@
 import random
 
 def selection_sort(array):
-    for start in range(len(array) - 1):
-        min_idx = start
-        for select_idx in range(start, len(array) - 1):
-            if array[min_idx] > array[select_idx]:
-                min_idx = select_idx
-        array[start], array[min_idx] = array[min_idx], array[start]
+    max_val = max(array)
+    b_array = []
+    for i in range(max_val):
+        b_array.append(0)
+    for idx in range():
+        
     return array
 
 def main():
