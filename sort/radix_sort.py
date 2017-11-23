@@ -4,8 +4,8 @@ amount_of_nums = 10
 
 def counting_sort(array, idx):
     size =len(array)
-    tmp = [0 for _ in range(amount_of_nums)]
-    result = [0 for _ in range(size)]
+    tmp = [0] * amount_of_nums
+    result = [0] * size
     get_num = lambda val : val % 10**(idx + 1) // 10**(idx)
     for val in array:
         tmp[get_num(val)] += 1
